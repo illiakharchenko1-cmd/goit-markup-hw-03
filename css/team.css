@@ -1,38 +1,9 @@
-.group {
+.team {
   background: #f4f4fd;
-  padding: 120px 0;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 0;
-}
-
-.team-list {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24px;
-  padding: 0;
-  padding-top: 72px;
-  padding-bottom: 120px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.team-info {
-  padding: 32px 16px;
-  width: 264px;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
 }
 
 .our-team {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -40,15 +11,23 @@
   text-align: center;
 }
 
-.team {
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-card {
   background: #fff;
   border-radius: 0 0 4px 4px;
   width: 264px;
-  height: 380px;
+}
+
+.team-info {
+  padding: 32px 16px;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 .t-name {
