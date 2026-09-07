@@ -1,4 +1,4 @@
-.web-studio {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -7,6 +7,13 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #2e2f42;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
 .web {
   color: #4d5ae5;
@@ -38,4 +45,34 @@
 .address:hover,
 .address:focus {
   color: #404bbf;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: auto;
+}
+
+.address-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }

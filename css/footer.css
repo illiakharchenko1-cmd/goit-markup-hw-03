@@ -1,6 +1,9 @@
 .footer {
   background: #2e2f42;
   color: #f4f4fd;
+  padding: 100px 0;
+  width: 1440px;
+  height: 312px;
 }
 
 .studio {
@@ -20,4 +23,12 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+}
+
+.footer-list {
+  padding: 0 15px;
+  width: 1158px;
+  height: 112px;
+  max-width: 1158px;
 }
